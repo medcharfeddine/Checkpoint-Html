@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint HTML</title>
+    <style>
+        table,
+        th {
+            border: 1px solid black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 65, 65);
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h1>Who am I ?</h1>
+        <p>Motivated junior web developer certified from Meta with experience building unbreakable and elegant
+            HTML5/CSS3/JavaScript(React) websites looking for an opportunity to grow front-end development skills in an
+            innovative environment.
+        </p>
+    </section>
+
+    <section class="work">
+        <div class="experience">
+            <h2>FrontEnd Dev</h2>
+            <table>
+                <tr>
+                    <th>Html5 / css3</th>
+                    <th>Javascript</th>
+                    <th>ReactJs</th>
+                </tr>
+                <tr>
+                    <th>bootstrap</th>
+                    <th>vite js</th>
+                    <th>sass</th>
+                </tr>
+
+            </table>
+
+        </div>
+        <br><br>
+        <div class="audio">
+            <audio src="https://cdn.pixabay.com/download/audio/2023/01/27/audio_3d61eda8c6.mp3?filename=risk-136788.mp3"
+                controls></audio>
+            <br>
+            <video
+                src="https://tartarus.feralhosting.com/firepig/JP/MOVIES/Iron%20Man%202008%201080p%20BluRay%20x264%20%20AAC%20-%20Ozlem.mp4"
+                width="720" height="480" controls></video>
+        </div>
+    </section>
+
+    <section class="resume">
+        <h1>My Resume</h1>
+        <a href="http://medcharfeddine.cf/">Take a Look</a>
+    </section>
+    <br>
+    <section class="contact">
+        <form action="">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="message">Let's Talk</label>
+            <br><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
